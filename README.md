@@ -1,1 +1,1 @@
-Home page is form.php
+Index page is form.php
