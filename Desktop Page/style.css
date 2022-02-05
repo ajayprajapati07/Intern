@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --color: #FF4400;
+  --font: Righteous, sans-serif;
+}
+
+#head{
+  height: 8.6vh;
+  line-height: 8.6vh;
+  background: var(--color);
+  color: #fff;
+  text-align: center;
+  font-weight: 100;
+  font-family: var(--font);
+  font-size: 2.8vw;
+}
+
+
+.color{
+  color: var(--color);
+}
+
+
+.flex-container {
+    display: flex;
+    margin-top: 5.7vh;
+    height: 80vh;
+
+}
+
+.section-a, .section-b {
+    flex: 1;
+    justify-content: space-around;
+}  
+
+.section-a {
+    border-right: .36vw solid var(--color);
+}  
+.section-a h1{
+  font-weight: 400;
+  font-size: 5vw;
+  margin-top: 10%;
+  /* word-spacing: 100vw; */
+  font-family: var(--font);
+  margin-left: 20%;
+  /* line-height: 4rem; */
+}
+.section-b {
+  margin-top: .8vh;
+  font-family: Robato, sans-serif;
+  margin-left: 3.8vw;
+  font-size: 1.2vw;
+} 
+
+
+.radio-group-1 input[type="radio"], .radio-group-2 input[type="radio"]{
+  display: none;
+}
+
+.radio-group-1 p, .radio-group-2 p{
+  margin-bottom: 1vh;
+}
+.radio-group-1 label, .radio-group-2 label{
+  display: inline-block;
+  cursor: pointer;
+  color: var(--color);
+  
+}
+.radio-group-1 label, .radio-group-2 label, .radio-group-1 span{
+  padding: 1.2vh 1.4vw;
+  margin-right: 2vw;
+}
+
+.radio-group-1 input[type="radio"]:checked+label, .radio-group-2 input[type="radio"]:checked+label {
+  background: var(--color);
+  color: #fff;
+  border-radius: .7vw;
+  /* margin-left: 3vw; */
+}
+
+
+
+.select-group-1 select, .select-group-2 select, .select-group-1 input {
+  margin: .8vh 0 0 0;
+  width: 22vw;
+  color: var(--color);
+  padding: 1vh .5vw 1vh .5vw;
+  font-size: 3vh;
+  /* border: .5vh solid #fff; */
+  border: none;
+
+  border-radius: 3vh;
+  box-shadow: 0 1.8vh 4vh rgba(255, 68, 0, 0.15);
+
+}
+
+.select-group-1 input:hover{
+  background-color: #FFFFFF; 
+  color: black; 
+  border: 1px solid #FF4400;
+}
+
+
+
+
+input:focus, select:focus, option:focus, textarea:focus, button:focus {
+  outline: none;
+}
+
+.select-group-1 p, .select-group-2 p, .radio-group-2 p{
+  margin-top: 5vh;
+  margin-bottom: 1vh;
+}
+
+
+
+
+.btn{
+  padding: .3vw 2.5vw;
+  border: .3vw solid var(--color);
+  border-radius: 1vw;
+  font-size: 1.4vw;
+  cursor: pointer;
+  float: right;
+  color: white;
+  margin-right: 20%;
+  margin-top: 14.46vh;
+  background: var(--color);
+}
+
+
+,
